@@ -68,7 +68,7 @@ class TestCalc(unittest.TestCase):
         self.assertEqual(c.display, "4")
 
     def test_8(self):
-        """1+1+1+2=5"""
+        """1+1+1+3=6"""
         c = Calc()
         c.press("1")
         c.press("+")
