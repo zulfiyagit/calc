@@ -67,6 +67,21 @@ class TestCalc(unittest.TestCase):
         c.press("=")
         self.assertEqual(c.display, "4")
 
+    def test_8(self):
+        """1+1+1+3=6"""
+        c = Calc()
+        c.press("1")
+        c.press("+")
+        c.press("2")
+        c.press("=")
+        c.press("C")
+        c.press("2")
+        c.press("+")
+        c.press("3")
+        c.press("=")
+        self.assertEqual(c.display, "5")
+
+
 
 if __name__ == '__main__':
     unittest.main()
