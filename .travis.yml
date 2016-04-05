@@ -10,5 +10,5 @@ before_install:
 after_success:
   - codecov
 # command to run tests
-script: "python test_calculator.py"
+script: "py.test"
 
