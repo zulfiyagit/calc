@@ -1,4 +1,9 @@
-lalanguage: python
+
+before_install:
+  - pip install codecov
+after_success:
+  - codecov
+language: python
 python:
   
   - "2.7"
