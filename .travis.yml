@@ -8,8 +8,10 @@ install: "pip install -r requirements.txt"
 before_install:
   - pip install codecov
 # command to run tests
-script: "py.test"
+#script: "py.test"
 #script: "python test_calculator.py"
+script:
+  -coverage run -m py.test
 
 after_success:
   - codecov
