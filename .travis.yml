@@ -11,7 +11,7 @@ before_install:
 #script: "py.test"
 #script: "python test_calculator.py"
 script:
-  -coverage run -m pytest
+  - coverage run -m pytest
 
 after_success:
   - codecov
