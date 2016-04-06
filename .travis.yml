@@ -11,4 +11,5 @@ after_success:
   - codecov
 # command to run tests
 script: "py.test"
+#script: "python test_calculator.py"
 
