@@ -2,4 +2,3 @@
 
 [![codecov.io](https://codecov.io/github/zulfiyagit/calc/coverage.svg?branch=master)](https://codecov.io/github/zulfiyagit/calc?branch=master)
 
-This is Travic-ci
